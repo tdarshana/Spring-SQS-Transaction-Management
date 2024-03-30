@@ -1,10 +1,10 @@
-package com.darshana.sbsqsdistributedtransaction;
+package com.darshana.publisher;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SbSqsDistributedTransactionApplicationTests {
+class PublisherApplicationTests {
 
     @Test
     void contextLoads() {

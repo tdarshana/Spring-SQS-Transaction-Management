@@ -1,13 +1,13 @@
-package com.darshana.sbsqsdistributedtransaction;
+package com.darshana.consumerTwo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SbSqsDistributedTransactionApplication {
+public class ConsumerTwoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SbSqsDistributedTransactionApplication.class, args);
+        SpringApplication.run(ConsumerTwoApplication.class, args);
     }
 
 }

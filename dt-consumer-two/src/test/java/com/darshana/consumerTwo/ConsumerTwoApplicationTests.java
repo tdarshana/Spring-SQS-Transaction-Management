@@ -1,10 +1,10 @@
-package com.darshana.sbsqsdistributedtransactionconsumertwo;
+package com.darshana.consumerTwo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SbSqsDistributedTransactionConsumerTwoApplicationTests {
+class ConsumerTwoApplicationTests {
 
     @Test
     void contextLoads() {
