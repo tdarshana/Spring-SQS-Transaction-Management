@@ -7,16 +7,18 @@
         <artifactId>sb-sqs-distributed-transaction</artifactId>
         <version>0.1.0</version>
     </parent>
-    <artifactId>sb-sqs-distributed-transaction-discovery-server</artifactId>
+    <artifactId>dt-consumer-two</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>sb-sqs-distributed-transaction-discovery-server</name>
-    <description>Spring-Boot SQS Distributed Transaction Discovery Server</description>
+    <name>sb-sqs-distributed-transaction-consumer-two</name>
+    <description>Spring-Boot SQS Distributed Transaction Second Consumer</description>
     <properties>
     </properties>
     <dependencies>
+        <!-- Spring Cloud AWS-->
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <groupId>io.awspring.cloud</groupId>
+            <artifactId>spring-cloud-aws-starter-sqs</artifactId>
         </dependency>
+        <!-- Spring Cloud Dependencies end-->
     </dependencies>
 </project>

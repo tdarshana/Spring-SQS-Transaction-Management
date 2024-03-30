@@ -7,7 +7,7 @@
         <artifactId>sb-sqs-distributed-transaction</artifactId>
         <version>0.1.0</version>
     </parent>
-    <artifactId>sb-sqs-distributed-transaction-publisher</artifactId>
+    <artifactId>dt-publisher</artifactId>
     <version>0.1.0</version>
     <name>sb-sqs-distributed-transaction</name>
     <description>Spring-Boot SQS Distributed Transaction Publisher</description>

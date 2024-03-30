@@ -7,7 +7,7 @@
         <artifactId>sb-sqs-distributed-transaction</artifactId>
         <version>0.1.0</version>
     </parent>
-    <artifactId>sb-sqs-distributed-transaction-consumer-one</artifactId>
+    <artifactId>dt-consumer-one</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>sb-sqs-distributed-transaction-consumer-one</name>
     <description>Spring-Boot SQS Distributed Transaction First Consumer</description>
